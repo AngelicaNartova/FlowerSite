@@ -1,0 +1,192 @@
+﻿html body {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    background-color: #E5E5E5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #AE7C78;
+}
+
+p {
+    
+    line-height: 29px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #AE7C78;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    padding-top: 26px;
+}
+
+.menu {
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+    
+    
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    padding-bottom: 22px;
+    padding-top: 22px;
+ 
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.logo {
+    display: inline-block;
+    position: 
+}
+
+.block-spacer {
+    margin-top: 80px;
+}
+
+.block-center {
+    display: flex;
+    justify-content: center;
+}
+
+.min-width {
+    min-width: 1200px;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+}
+
+dl {
+    display: flex;
+    justify-content: space-between;
+}
+
+dd {
+    margin: 0;
+    padding-top: 8px;
+}
+
+.card-main__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: 
+}
+
+.card-main__tagline {
+    font-family: 'Playfair Display', serif;
+    line-height: 59px;
+    width: 384px;
+    font-size: 44px;
+    color: #AE7C78;
+}
+
+.card-main__title {
+    width: 384px;
+    font-size: 24px;
+    color: #AE7C78;
+    padding-top: 24px;
+}
+
+.card-main__picture {
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    min-width: 387px;
+    padding-top: 48px;
+    font-size: 16px;
+    color: #AE7C78;
+}
+
+.cards__description {
+    width: 285px;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border: 30px solid #D89999;
+    background: #D89999;
+    width: 285px;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.card-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-item {
+    display: flex;
+    margin-top: 36px;
+}
+
+.slider-item__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card-slider__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+}
+
+.card-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider-item__description__title {
+    font-size: 24px;
+    color: #AE7C78;
+}
+
+.slider-item__text {
+    Width: 387px;
+    padding-top: 20px;
+}
+
+.slider-item__size {
+    padding-top: 24px;
+}
+
+.slider-item__price {
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.arrow-back {
+    content: '\2190';
+    font-size: 
+}
+
+.arrow-foward {
+
+}

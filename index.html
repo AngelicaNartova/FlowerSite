@@ -3,92 +3,208 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Доставка букетов</title>
 </head>
 <body>
-    <head>
-        <nav>
-            <ul>
-                <li>Каталог</li>
-                <li>Доставка и оплата</li>
-                <li>Отзывы</li>
-                <li>Спецпредложения</li>
-                <li>Контакты</li>
-                <li>Корзина</li>
+
+    <header>
+        <nav class="menu">
+            <a class="logo" href=""> <img src="pic/logo.svg" alt="Botanika" width="100" height="32"> </a>
+            <ul class="menu-item">
+                <li><a href="">Каталог</a></li>
+                <li><a href="">Доставка и оплата</a></li>
+                <li><a href="">Отзывы</a></li>
+                <li><a href="">Спецпредложения</a></li>
+                <li><a href="">Контакты</a></li>
+                <li><a href="">Корзина</a></li>
             </ul>
-            <a class="logo"> <img src=""> </a>
         </nav>
-    </head>
+    </header>
+
     <main>
-        <section class="main-page">
-            <h1>Авторские букеты в Петербурге</h1>
-            Оригинальные свежие букеты
-            с доставкой по всему городу
-            Смотреть каталог
-            <img src="">
-            <img src="">
-            Быстрая доставка
-            Можем собрать букет и передать его в доставку всего за час.
-            Всегда свежие цветы
-            Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.
-            Отправляем фото цветов
-            Перед доставкой сделаем фотографию букета и отправим вам.
-        </section>
-        <section class="">
-            <h2>Популярные букеты</h2>
-            Букет «Нежность»
-            Элегантный букет, который станет отличным подарком на день рождения или юбилей.
-            30 × 40 см
-            3600 руб.
-            <img src="">
-            <button></button>
-            <button></button>
-        </section>
-        <section>
-            <a>
-                <h3>Свадебные букеты</h3>
-                <p>Букеты для невест</p>
-                <img src="">
-            </a>
-            <a>
-                <h3>Букеты с пионами</h3>
-                <p>Букеты с сезонными пионами</p>
-                <img src="">
-            </a>
-            <a>
-                <h3>Выбрать букет</h3>
-                <p>Букеты в ассортименте</p>
-                <img src="">
-            </a>
-        </section>
-        <section>
-            <div class="container">
-                <h4>Скидка 10% на первый заказ</h4>
-                <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
-            </div>
-            <img src="">
-        </section>
-        <section>
-            <h5>4 шага к идеальному букету</h5>
-            <p>Заказ Выберите понравившийся букет из каталога и оформите заказ</p>
-            <p>Уточнение деталей Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
-            <p>Оплата Оплатить заказ можно онлайн на сайте или при получении</p>
-            <p>Доставка Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+        <div class="block-center">
+            <section class="card-main block-spacer">
+                <div class="min-width">
+                    <div class="card-main__description">
+                        <div>
+                            <h1 class="card-main__tagline">Авторские букеты в Петербурге</h1>
+                            <p class="card-main__title">Оригинальные свежие букеты с доставкой по всему городу</p>
+                            <a href="" class="button">Смотреть каталог</a>
+                        </div>
+                        <img class="card-main__picture" src="pic/main1.jpg">
+                        <img class="card-main__picture" src="pic/main2.jpg">
+                    </div>
+
+                    <dl>
+                        <div class="cards">
+                            <img src="pic/delivery.svg" width="82" height="52">
+                            <div class="cards__description">
+                                <dt>Быстрая доставка</dt>
+                                <dd>Можем собрать букет и передать его в доставку всего за час.</dd>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="pic/freshFlower.svg" width="33,87" height="52">
+                            <div class="cards__description">
+                                <dt>Всегда свежие цветы</dt>
+                                <dd>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</dd>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="pic/photoFlowers.svg" width="58,6" height="52">
+                            <div class="cards__description">
+                                <dt>Отправляем фото цветов</dt>
+                                <dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+                            </div>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+        </div>
+        
+        <div class="block-center">
+            <section class="card-slider block-spacer">
+                <h2 class="card-slider__title">Популярные букеты</h2>
+                <div class="slider-item">
+                    <div class="slider-item__description">
+                        <h3 class="slider-item__description__title">Букет «Нежность»</h3>
+                        <p class="slider-item__text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                        <p class="slider-item__size">30 × 40 см</p>
+                        <p class="slider-item__price">3600 руб.</p>
+                        <a class="button" href="">Заказать</a>
+                    </div>
+                    <div class="slider__item-preview">
+                        <img src="pic/bouquet-tenderness.png" alt="Букет «Нежность»" width="387" height="438">
+                    </div>
+                </div>
+                <div class="slider__controls">
+                    <button type="button"><span class="arrow-back"></span></button>
+                    <button type="button"><span class="arrow-foward"></span></button>
+                </div>
+            </section>
+        </div>
+
+        <section class="card-preview block-spacer">
+            <h2 class="visually-hidden">Разделы каталога</h2>
+            <ul>
+                <li>
+                    <a href="">
+                        <h3>Свадебные букеты</h3>
+                        <p>Букеты для невест</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Букеты с пионами</h3>
+                        <p>Букеты с сезонными пионами</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Выбрать букет</h3>
+                        <p>Букеты в ассортименте</p>
+                    </a>
+                </li>
+            </ul>
         </section>
 
-    </main>
-    <footer>
-        <a><img class="logo"></a>
-        <nav>
+        <section class="card-discount block-spacer">
+            <h2>Скидка 10% на первый заказ</h2>
+            <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+            <img src="pic/florist-makes-beautiful-bouquet.jpg" alt="florist makes beautiful bouquet" width="590" height="391">
+        </section>
+
+        <section class="card-order-steps block-spacer">
+            <h2>4 шага к идеальному букету</h2>
+            <div class="cards">
+                <img src="pic/order.svg">
+                <h3>Заказ</h3>
+                <p>Выберите понравившийся букет из каталога и оформите заказ</p>
+            </div>
+            <div class="cards">
+                <img src="pic/details.svg">
+                <h3>Уточнение деталей</h3>
+                <p>Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+            </div>
+            <div class="cards">
+                <img src="pic/buy.svg">
+                <h3>Оплата</h3>
+                <p>Оплатить заказ можно онлайн на сайте или при получении</p>
+            </div>
+            <div class="cards">
+                <img src="pic/delivery.svg">
+                <h3>Доставка</h3>
+                <p>Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+            </div>
+        </section>
+
+        <section class="card-news block-spacer">
+            <h2>Следите за нашими новостями</h2>
+            <p>Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
             <ul>
-                <li>Каталог</li>
-                <li>Доставка и оплата</li>
-                <li>Отзывы</li>
-                <li>Спецпредложения</li>
-                <li>Контакты</li>
+                <li><a href=""></a><span class="visually-hidden">Instagramm</span></li>
+                <li><a href=""><span class="visually-hidden"></span>Facebook</a></li>
+                <li><a href=""><span class="visually-hidden"></span>Twitter</a></li>
+            </ul>
+            <div>
+                <img src="pic/samantha-gades.jpg" alt="Bouquet «Samantha Gades»" width="285" height="220">
+                <img src="pic/insung-yoon.jpg" alt="Bouquet «Insung Yoon»" width="285" height="220">
+                <img src="pic/demi-he.jpg" alt="Bouquet «Demi He»" width="387" height="460">
+            </div>
+        </section>
+
+        <section class="reviews block-spacer">
+            <h2>Отзывы</h2>
+            <blockquote>
+                <p>Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
+                <cite>Марина</cite>
+            </blockquote>
+            <blockquote>
+                <p>Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</p>
+                <cite>Татьяна</cite>
+            </blockquote>
+            <blockquote>
+                <p>Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!</p>
+                <cite>Ольга</cite>
+            </blockquote>
+        </section>
+
+        <section class="card-contacts block-spacer">
+            <h2>Мы ждем вас</h2>
+            <ul>
+                <li><p>Приходите к нам:</p></li>
+                <li><p>Санкт-Петербург,<br>ул. Большая Конюшенная, 19</p></li>
+                <li><p>Режим работы:</p></li>
+                <li><p>Пн-Вск, с 9-00 до 20-00</p></li>
+                <li><p>Позвоните нам:</p></li>
+                <li><a href="tel:+78129834719">+ 7 (812) 983-47-19</a></li>
+                <li><p>Напишите нам:</p></li>
+                <li><a href="mailto:info@botanika.ru">info@botanika.ru</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a class="logo"> <img src="pic/logo.svg" alt="Botanika" width="100" height="32"> </a>
+            <ul>
+                <li><a href="">Каталог</a></li>
+                <li><a href="">Доставка и оплата</a></li>
+                <li><a href="">Отзывы</a></li>
+                <li><a href="">Спецпредложения</a></li>
+                <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        <>
+        <ul>
+            <li><a href=""><span class="visually-hidden">Instagramm</a></li>
+            <li><a href=""><span class="visually-hidden">facebook</a></li>
+            <li><a href=""><span class="visually-hidden">Twitter</a></li>
+            </ul>
     </footer>
+
 </body>
 </html>
