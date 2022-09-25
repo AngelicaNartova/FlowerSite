@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Flower delivery</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="menu-logo" href=""> <img src="pic/logo.svg" alt="Botanika" width="100" height="32"></a>
+            <div class="menu">
+                <a class="menu-item" href="#catalog-section">Catalog</a>
+                <a class="menu-item" href="#shipping-payment">Shipping & Payment</a>
+                <a class="menu-item" href="#reviews">Reviews</a>
+                <a class="menu-item" href="#offers">Offers</a>
+                <a class="menu-item" href="#Contacts">Contacts</a>
+                <a class="menu-item" href="#cart">Cart</a>
+            </div>
+            <button class="hamburger">
+                <span class="material-icons">menu</span>
+            </button>
+        </nav>
+        <div class="mobile-menu">
+            <a href="#catalog-section">Catalog</a>
+            <a href="#shipping-payment">Shipping & Payment</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#offers">Offers</a>
+            <a href="#Contacts">Contacts</a>
+            <a href="#cart">Cart</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="block-center">
+            <section class="card-main block-spacer min-width">
+                <div>
+                    <div class="card-main__description">
+                        <div>
+                            <h1 class="card-main__tagline">Exclusive bouquets in Tampa</h1>
+                            <p class="card-main__title">Original fresh bouquets with delivery throughout the city</p>
+                            <a href="" class="button">View catalog</a>
+                        </div>
+                        <img class="card-main__picture" src="pic/main1.jpg">
+                        <img class="card-main__picture" src="pic/main2.jpg">
+                    </div>
+
+                    <dl>
+                        <div class="cards">
+                            <img src="pic/delivery.svg" width="82" height="52">
+                            <div class="cards__description">
+                                <dt>Fast shipping</dt>
+                                <dd>We can assemble a bouquet and send it for delivery in just an hour.</dd>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="pic/freshFlower.svg" width="33,87" height="52">
+                            <div class="cards__description">
+                                <dt>Always fresh flowers</dt>
+                                <dd>We carefully monitor the condition of the flowers, and experienced florists select
+                                    each flower for bouquets.</dd>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <img src="pic/photoFlowers.svg" width="58,6" height="52">
+                            <div class="cards__description">
+                                <dt>We send photos of flowers</dt>
+                                <dd>Before delivery, we will take a photo of the bouquet and send it to you.</dd>
+                            </div>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+        </div>
+
+        <div class="block-center">
+            <section class="card-slider block-spacer">
+                <h2 class="card-slider__title">Popular bouquets</h2>
+                <div class="slider-item">
+                    <div class="slider-item__description">
+                        <h3 class="slider-item__description__title">Bouquet "Tenderness"</h3>
+                        <p class="slider-item__text">An elegant bouquet that will be a great gift for a birthday or
+                            anniversary.</p>
+                        <p class="slider-item__size">11.8 × 15.7 in</p>
+                        <p class="slider-item__price">$ 59</p>
+                        <a class="button" href="">Order</a>
+                    </div>
+                    <div class="slider__item-preview">
+                        <img src="pic/bouquet-tenderness.png" alt="Bouquet " Tenderness" width="387" height="438">
+                    </div>
+                </div>
+                <div>
+                    <button type="button"><span class="arrow arrow-left">&#10229;</span></button>
+                    <button type="button"><span class="arrow arrow-right">&#10230;</span></button>
+                </div>
+            </section>
+        </div>
+
+        <section class="block-spacer block-center" id="catalog-section">
+            <h2 class="visually-hidden">Catalog sections</h2>
+            <ul class="catalog">
+                <li class="catalog__pic1 catalog__backgrnd">
+                    <a href="" class="catalog__backgrnd-color catalog__backgrnd-position">
+                        <h3 class="catalog__title">Wedding bouquets</h3>
+                        <p class="catalog__description">Bouquets for brides</p>
+                    </a>
+                </li>
+                <li class="catalog__pic2 catalog__backgrnd">
+                    <a href="" class="catalog__backgrnd-color catalog__backgrnd-position">
+                        <h3 class="catalog__title">Bouquets with peonies</h3>
+                        <p class="catalog__description">Bouquets with seasonal peonies</p>
+                    </a>
+                </li>
+                <li class="catalog__pic3 catalog__backgrnd">
+                    <a href="" class="catalog__backgrnd-color catalog__backgrnd-position">
+                        <h3 class="catalog__title">Choose a Flowers</h3>
+                        <p class="catalog__description">Flowers in assortment</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card-discount block-spacer block-center" id="offers">
+            <div class="card-discount__items">
+                <h2 class="card-discount__description">10% discount on first order</h2>
+                <p class="card-discount__description">If you order a bouquet from us for the first time, when placing an
+                    order, enter the promo code
+                    "Flowerlover" and get a 10% discount.</p>
+            </div>
+            <img src="pic/florist-makes-beautiful-bouquet.jpg" alt="florist makes beautiful bouquet" width="590"
+                height="391">
+        </section>
+
+        <section class="card-order-steps block-spacer block-center" id="shipping-payment">
+            <h2>4 steps to the perfect bouquet</h2>
+            <div class="cards">
+                <div class="card cards__description">
+                    <img class="card__item" src="pic/order.svg" width="66px" height="52px">
+                    <h3 class="card__item">Order</h3>
+                    <p class="card__item">Choose your favorite bouquet from the catalog and place an order</p>
+                </div>
+                <div class="card cards__description">
+                    <img class="card__item" src="pic/details.svg" width="38px" height="52px">
+                    <h3 class="card__item">Refinement of details</h3>
+                    <p class="card__item">Our florist will call you after placing the order to clarify the details</p>
+                </div>
+                <div class="card cards__description">
+                    <img class="card__item" src="pic/buy.svg" width="70px" height="52px">
+                    <h3 class="card__item">Payment</h3>
+                    <p class="card__item">You can pay for the order online on the website or upon receipt</p>
+                </div>
+                <div class="card cards__description">
+                    <img class="card__item" src="pic/delivery.svg" width="82px" height="52px">
+                    <h3 class="card__item">Delivery</h3>
+                    <p class="card__item">The courier will call an hour before arrival and deliver the order on time</p>
+                </div>
+            </div>
+
+        </section>
+        
+        <section class="block-spacer block-center">
+            <div class="card-news">
+                <h2 class="card-news__title">Follow our news</h2>
+                <p class="card-news__description">Subscribe to our social networks and be the first to know about new
+                    products and promotions</p>
+                <div class="socialmedia-icon card-news__socialmedia">
+                    <a href=""><img src="pic/instagram_icon.svg"></a>
+                    <a href=""><img src="pic/facebook_icon.svg"></a>
+                    <a href=""><img src="pic/twitter_icon.svg"></a>
+                </div>
+            </div>
+            <div class="card-news__pics">
+                <div class="card-news__2pics">
+                    <img src="pic/samantha-gades.jpg" alt="Bouquet «Samantha Gades»" width="285" height="220">
+                    <img src="pic/insung-yoon.jpg" alt="Bouquet «Insung Yoon»" width="285" height="220">
+                </div>
+                <img src="pic/demi-he.jpg" alt="Bouquet «Demi He»" width="387" height="460">
+            </div>
+        </section>
+
+        <section class="block-spacer block-center" id="reviews">
+            <div class="card-reviews">
+                <h2 class="card-reviews__title">Reviews</h2>
+                <div class="card-reviews__description">
+                    <blockquote>
+                        <p>I liked everything very much! Fast ordering, convenient delivery time. Thank you all!</p>
+                        <cite>Rachel</cite>
+                    </blockquote>
+                    <blockquote>
+                        <p>Attentive florists, polite. I liked the bouquet very much, I will order more!</p>
+                        <cite>Alex</cite>
+                    </blockquote>
+                    <blockquote>
+                        <p>The choice of bouquets for every taste and price. There are good discounts, and florists will
+                            always
+                            help!</p>
+                        <cite>John</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="block-spacer" id="Contacts">
+            <div style="position:relative">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56377.67840827066!2d-82.55544146334381!3d27.97538397940597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c66ae34b9e37%3A0x77335901e11c764c!2sInternational%20Plaza%20and%20Bay%20Street!5e0!3m2!1sru!2sus!4v1663092260368!5m2!1sru!2sus"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+
+                <div class="card-contacts">
+                    <h2 class="card-contacts__title">We are waiting for you</h2>
+                    <ul class="card-contacts__description">
+                        <li>
+                            <p>Come to us:</p>
+                        </li>
+                        <li>
+                            <p>Tampa,<br>2223 N Westshore Blvd</p>
+                        </li>
+                        <li>
+                            <p>Opening hours</p>
+                        </li>
+                        <li>
+                            <p>Mon-Sun, 9-00am to 9-00pm</p>
+                        </li>
+                        <li>
+                            <p>Call us:</p>
+                        </li>
+                        <li><a href="tel:+8133423790">+ (813) 342-3790</a></li>
+                        <li>
+                            <p>Write to us:</p>
+                        </li>
+                        <li><a href="mailto:info@botanika.com">info@botanika.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a class="menu-logo" href=""> <img src="pic/logo_footer.svg" alt="Botanika" width="100" height="32"></a>
+            <div>
+                <a class="footer__menu" href="#catalog-section">Catalog</a>
+                <a class="footer__menu" href="#shipping-payment">Shipping & Payment</a>
+                <a class="footer__menu" class="menu__footer" href="#reviews">Reviews</a>
+                <a class="footer__menu" href="#offers">Offers</a>
+                <a class="footer__menu" href="#contacts">Contacts</a>
+                <a class="footer__menu" href="#cart">Cart</a>
+            </div>
+            <div class="socialmedia-icon">
+                <a href=""><img src="pic/instagram_icon_menu.svg"></a>
+                <a href=""><img src="pic/facebook_icon_menu.svg"></a>
+                <a href=""><img src="pic/twitter_icon_menu.svg"></a>
+            </div>
+        </nav>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
