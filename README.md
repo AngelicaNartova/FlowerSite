@@ -1,12 +1,15 @@
 ﻿# FlowerSite
  
 This is an example of website for a flower shop. Based on UI mockup.
+
 It includes:
+
 - Hamburger menu
 - Main layout
 - Slider block
 - Catalog block with button navigation
 - Google map with real data
+
 I have reused my earlier project to implement a sliding navigation menu and a hamburger menu here.
 
 
