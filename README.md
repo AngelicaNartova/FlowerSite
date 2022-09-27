@@ -1,6 +1,6 @@
-﻿# FlowerSite
+﻿# Flower web site
  
-This is an example of a website for a flower shop. Based on an UI mockup.
+This is an example of a website for a flower shop. Based on UI mockups.
 
 It includes:
 
